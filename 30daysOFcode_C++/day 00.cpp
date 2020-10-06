@@ -1,9 +1,6 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
+#include<bits/stdc++.h>
 using namespace std;
+
 int main() {
     // Declare a variable named 'input_string' to hold our input.
     string input_string; 
@@ -16,6 +13,13 @@ int main() {
 
     // TODO: Write a line of code here that prints the contents of input_string to stdout.
     cout<<input_string;
+
+    // Accept a number from the user
+    int number;
+    cin >> number;
+
+    // Print the number out to the console
+    cout << number << "\n";
 
     return 0;
 }
